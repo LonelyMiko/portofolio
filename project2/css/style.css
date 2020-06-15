@@ -1,0 +1,200 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#hero{
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+#hero h1{
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+ }
+
+@media only screen and (max-width: 600px) {
+  #hero h1{
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  }
+}
+
+
+#hero h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+
+#mainNav.navbar-shrink {
+    background-color: #fff;
+  }
+
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #000000;
+  }
+
+  #mainNav.navbar-shrink .nav-link {
+    color: #000000;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #64a19d;
+  }
+
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #467370;
+  }
+
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #64a19d;
+    outline: none;
+    border-bottom: 0.25rem solid #64a19d;
+  }
+
+@media (min-width: 768px) {
+  #hero h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+@media (min-width: 992px) {
+  #hero {
+    height: 100vh;
+    padding: 0;
+  }
+
+  #hero h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+
+}
+
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+#about {
+	padding-top: 10rem;
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+#about h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+
+/*--------------------------------------------------------------
+# Projects
+--------------------------------------------------------------*/
+#projects{
+	padding-top: 10rem;
+}
+
+.featured-text{
+	padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+}
+.project{
+	background-color: black;
+}
+
+#projects hr{
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 30%;
+}
+
+.project-text{
+  padding: 3rem;
+  font-size: 90%;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+#contact{
+  background-image: url("../img/bg-signup.jpg");
+  margin-top: 9rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+#contact input{
+	padding: 1.25rem 2rem;
+  height: auto;
+}
+
+#contact button{
+	padding: 1.25rem 2rem;
+  height: auto;
+}
+
+.contact-section {
+  padding-top: 5rem;
+}
+
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #64a19d;
+}
+
+.contact-section .card h4 {
+  font-size: 0.8rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.contact-section .card hr {
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+.contact-section .social {
+  margin-top: 5rem;
+}
+
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+.footer {
+  padding: 5rem 0;
+}
+.bg-black{
+  background-color: #000000
+}
