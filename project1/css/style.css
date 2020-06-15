@@ -26,18 +26,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-/* Prelaoder */
-#preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 999;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-  background: #fff url("../img/preloader.svg") no-repeat center center;
-}
-
 /* Back to top button */
 .back-to-top {
   position: fixed;
@@ -55,6 +43,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+
+  .background {
+    display: none;
   }
 }
 
@@ -658,6 +650,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .social{
   padding-top: 15px;
   letter-spacing: 5px;
+}
+
+@media (max-width: 768px) {
+  #team .people{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
 }
 
 /* Contact Section
